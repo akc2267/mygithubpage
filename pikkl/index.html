@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="jquery-1.11.3.min.js"> </script>
+  <!-- will need this whenever I host online for faster loading probs
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+  <script src="//use.typekit.net/idz1anz.js"></script>
+  <script src="script.js"> </script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <title>Julio Correa</title>
+  <link rel="stylesheet" href="../individual-style.css">
+  <link href="/normalize.css" rel="stylesheet">
+  <script src="prefixfree.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+
+    <h1> <a href="../index.html"> Julio Correa </a> </h1>
+    <h2> Pikkl </h2>
+
+    <section id="detail">
+       
+      <p>
+        iOS App for Mobile Development Class. Worked with team of two other Computer Science students to program this app. We used Swift, Facebook API, and Parse to build the app. It was built over the course of 10 weeks. 
+        <br> 
+        <iframe src="https://player.vimeo.com/video/158665222?title=0&byline=0" width="300" height="532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <br>
+        <br>
+        <h3>Purpose:</h3>
+        An original iOS app developed for: CS 378 iOS Mobile Computing [team of three developers]
+        <h3>Roles:</h3>
+        Front End Development - Swift, Wire-Framing, Prototyping, Sketching, UI Design, Game Design, and Concept
+        <h3>Game:</h3>
+        User creates a Battle by choosing a Title to take photos of [e.g., Ugliest faces], and inviting friends to play. Players compete in a Battle by uploading their best pictures of the Title topic before the time limit. Once photos are submitted, users rate their friend's submitted photos from 1-5. The photo with the highest average score wins!
+        <h3>Brainstorm, concept, research:</h3>
+        We brainstormed about the app and considered competition, features, and users. This research is featured at the beginning of this case study. The idea for this app came as an analog for a game Morgan Edgerton would play with her friends, in which they would take goofy sel es, then show them to each other to see who had taken the funniest one. As we began to re ne the idea, we used other photo competitions as a reference to see how they worked. We learned that shorter competitions engage users more. We learned that photos were usually compared in categories, which led us to use categorical comparison for photos. Most importantly, we realized that at it's essence, a photo-competition was comprised of four steps: Creation, Submission, Voting, and Results.
+        <h3>Game Design:</h3>
+        After doing research, we needed a way to structure the game in order to make it fair, intuitive, and engaging for us- ers. We chose to structure battles in three stages. All players participating in the battle would see the same three stages. This meant that all users had the same amount of time to submit, all users voted based only on the title of the battle (users cannot see other submissions until after the submission phase is over) which meant that all users had the same preparation for submission. We made sure that users could only submit to a battle once, could not vote on their own image, and could only vote on other user's images once in order to remain fair. In order to calculate scores, we averaged the number of votes an image received. This ensured that all image's scores were compared fairly. We used different colors for each phase and consistent titles for each phase to make sure it was not confusing.
+        <img src="sketch.jpeg">
+        <h3> Sketching and Wireframing: </h3>
+        After we had solidified the concept and game design, we began sketching user interface ideas. This helped us to get a sense of how many screens we would need, and let us work as a team to bounce ideas off of each other and decide what was viable within the app's interface. Once we had sketched through the user  ows, we laid them out in Sketch to create a wireframe. This wireframe served as a guide while we developed the app. It informed what buttons would go on each screen and how screens related to each other.
+        <img src="wireframe.png">
+        <h3>Development:</h3>
+        We started by planning the database to store information for battles and users. We began working on the database concurrently with the sketching and wireframing. Once we had decided on a  ow for the app, we created ViewCon- trollers in Xcode for each of the screens we would need. We used Parse for a databse, the app was programmed in Swift 2.0, and we designed the UI using Storyboard in Xcode. We used trello to manage all the tasks we had to complete.
+        <h3>High Fidelity Mockups, Color, Type, Styling, and inVision: </h3>
+        After we had de ned the user  ow and begun programming the app, we started working on the styling for the  nal product. We experimented with various color schemes and styles (shown below in chronological order from left to right). Throughout this process, we made sure to consider the medium we were designing for (iOS) and how to de- sign in a style that is compliant with iOS best practices and design. We began to do user testing with our inVision app (https://projects.invisionapp.com/share/AR54JMCG6#/screens) in order to identify any confusing user interfaces problems.
+        <h3>Results</h3>
+        The resulting app met our MVP expectations and was styled similarly to our high- delity designs. The experience of creating a product from inception to completion was very rewarding and working with two great teammates made for an enjoyable learning experience for us all.
+        <img src="final-ss.png">
+        <br> Here's the github for project: <a href="https://github.com/lijeffreytli/pikkl"> https://github.com/lijeffreytli/pikkl </a>
+        <br><br>
+        <!-- <object id="pdf" data="Pikkl.pdf" type="application/pdf" width="100%" height="100%"> 
+          <p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href="Pikkl.pdf">click here to download the PDF file.</a></p>
+        </object> -->
+      </p>
+    </section>
+</body>
+  </html>
+
+
+
