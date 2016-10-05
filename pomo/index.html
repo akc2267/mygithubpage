@@ -16,21 +16,20 @@
 <body>
 
 
-   <h1> <a href="../index.html">Alex Kuan Cheng</a> </h1> 
-    <h2> Pomobox </h2>
+   <h1> <a href="../index.html">Alex Kuan Cheng</a> </h1>
+    <h2> JukeBox - WiFiP2P Music Sharing App </h2>
     <section id="detail">
-        <iframe src="https://player.vimeo.com/video/158543132?title=0&byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <h2> Master </h2>
+        <img src="master.png">
+        <h2> Slave </h2>
+        <img src="slave.png">
       <p>
         <br>
-        This design is the physical embodiment of the Pomodoro technique, a time management technique which uses a timer to break down work into intervals.This video was shot with the help of Aaron Chavez (RTF Major and friend)  
+        I created this app with my classmate and friend, Nishant Gupta for CS371M Mobile Computing with Emmett Witchel. We wanted to create a music sharing app that would make playing music for roadtrips both collaborative and simple. We wrote the app in such a way that there would be one "master" phone, which would be connected to the car aux cable and also act as a wifi hotspot for other phones to connect to. Then the "slave" phones could send music to the master phone. The combined songs of the master and slave phones would form a playlist on the master phone. If anyone didn't like the current song playing, they could send a skip request to the master phone. If a majority of the people want to skip the current song, the master phone would instantly start playing the next song on the playlist.
         <br><br>
-        This design was made using a SparkFun Inventor's Kit I checked out from the Fine Arts Library. This kit contained the arduino, photoresistor, breadboard, and servo. I made the enclosure from cardboard and used a servo to make the countdown timer mechanical.  
+        We implemented a lot of difficult features while building this app. We created a garbage collector to clear out the music sent to the master phone when the app was closed. We also gained a lot of experience understanding wifi sockets and how to send files between devices.
         <br><br>
-        In the future, I would like to house the circuit in a wooden box, using the same design vocabulary as other desktop organizers and accessories.  This design was inspired by my desire to have more 3D pieces in my portfolio. I have also been curious about arduino, so this was a great introduction to using one.  
-        <br><br>
-        I got the idea from the design after becoming frustrated at myself for impulsively checking my phone. The buzzer is abrasive and discourages the impulsive use of a phone.
-        <br> <br>
-        Here's the github for project: <a href="https://github.com/lijeffreytli/pikkl"> https://github.com/lijeffreytli/pikkl </a>
+        Here's the github for project: <a href="https://github.com/akc2267/JukeBox/tree/master/WiFiDirect%202"> https://github.com/akc2267/JukeBox/tree/master/WiFiDirect%202 </a>
       </p>
     </section>
   </body>
