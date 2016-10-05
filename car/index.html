@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="jquery-1.11.3.min.js"> </script>
+  <!-- will need this whenever I host online for faster loading probs
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+  <script src="//use.typekit.net/idz1anz.js"></script>
+  <script src="script.js"> </script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <title>Alex Kuan Cheng</title>
+  <link rel="stylesheet" href="../individual-style.css">
+  <link href="/normalize.css" rel="stylesheet">
+  <script src="prefixfree.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+    <h1> <a href="../index.html">Alex Kuan Cheng</a> </h1>
+    <h2> Collision Avoidance Car </h2>
+
+    <section id="detail">
+      <p>
+        This is a rudimentary collision avoidance system for miniature cars that I created for a Science Fair project. I used an Arduino to monitor 3 ultrasonic sensors while simultaneously controlling the miniature car's rear drive motor and steering motor. I designed the collision avoidance system to avoid both head on collisions and rear end collisions. My final iteration of the car performed as follows:
+
+        When anticipating a head on collision:
+        If there were no obstructions to the right of the car, the collision avoidance system would steer right while braking.
+        If there was an obstruction to the right of the car, as is often such on bridges or two lane highways with railing, then the collision avoidance system would just aggressively brake.
+
+        When anticipating a rear end collision:
+        If there were no obstructions in front of the car, the collision avoidance system would move forward.
+        <img src="car1.JPG">
+        <img src="car2.JPG">
+        <br>
+        <br>
+      </p>
+    </section>
+</body>
+</html>
+
+
